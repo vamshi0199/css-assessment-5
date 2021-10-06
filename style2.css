@@ -1,0 +1,107 @@
+.one{
+    
+    margin-bottom: 20px;
+    margin-left: 500px;
+   
+}
+.onee{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    margin-bottom: 20px;
+    transition: width;
+}
+.onee:hover{
+    width: 300px;
+    
+}
+
+.two{
+     height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    transition: height 5s, width 5s;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+.two:hover{
+    height: 300px;
+    width: 300px;
+}
+
+.three{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    transition: width 2s linear;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+.three:hover{
+    width: 300px;
+}
+.four{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    transition: width 2s ease-in;
+    background-color: brown;
+    margin-bottom: 20px;
+
+}
+.four:hover{
+width: 300px;
+}
+.five{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    transition: width 2s ease-out ;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+.five:hover{
+    transition-timing-function: ease-out;
+    width: 300px;
+}
+.six{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    transition: width 2s ease;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+.six:hover{
+    width: 300px;
+
+}
+.seven{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    transition: width 2s ease-in-out;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+.seven:hover{
+    width: 300px;
+}
+body{
+    background-color: yellow;
+}
+.nine{
+    text-align: center;
+    font-weight: 700;
+}
+.ten{
+    font-weight: 700;
+}

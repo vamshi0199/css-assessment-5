@@ -1,0 +1,182 @@
+.sky{
+    position: absolute;
+   
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    top: 55px;
+}
+.tower{
+    height: 300px;
+    width: 5000px;
+    background-image: url(./city.png);
+    position: absolute;
+    top: 28%;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-repeat: repeat-x;
+    animation-timing-function: linear;
+}
+@keyframes move {
+    100%{
+        transform: translateX(-1000px);
+    }
+}
+
+.car{
+    position: absolute;
+    height: 200px;
+    width: 473px;
+    top: 360px;
+    right: 115px;
+}
+.tyres{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: 464px;
+    right: 167px;
+    animation-name: wheel2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    z-index: 2;
+    animation-timing-function: linear;
+
+}
+@keyframes wheel2 {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.wheel2{
+    position: relative;
+    top: 460px;
+    left: 705px;
+    animation-name: wheel2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    z-index: 2;
+    animation-timing-function: linear;
+
+}
+@keyframes wheel2 {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.road{
+    position: absolute;
+    background-image: url(./road.jpg);
+    height: 200px;
+    width: 5000px;
+    top: 412px;
+    animation-name: road;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-repeat: repeat-x;
+
+}
+@keyframes road {
+    100%{
+        transform: translateX(-3500px);
+    }
+}
+
+h1{
+    text-align: center;
+    
+}
+.happy{
+ 
+    width: 120px;
+    height: 40px;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    border: 1px solid white;
+    background-color: orange;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    z-index: 1;
+}
+.inde{
+    width: 290px;
+    height: 40px;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(78, 9, 240);
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 480px;
+    z-index: 1;
+}
+.day{
+    width: 80px;
+    height: 40px;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(18, 18, 19);
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgb(16, 250, 74);
+    position: absolute;
+    top: 0px;
+    left: 780px;
+    z-index: 1;
+}
+body{
+    background-image: url(./sky.jpg);
+}
+.line2{
+    height: 654px;
+    width: 200px;
+    border-right: 9px solid green;
+    position: absolute;
+    right: -1px;
+    top: 5px;
+    z-index: 1;
+}
+.line1{
+    height: 1025px;
+    width: 200px;
+    border-left: 9px solid orange;
+    position: relative;
+    top: -539px;
+    z-index: 1;
+    left: -9px;
+}
+.flag{
+    position:absolute;
+    top: 336px;
+    right: 100px;
+    height: 300px;
+    width: 150px;
+}
+.sun{
+    position:absolute;
+    top: 121px;
+    right: 230px;
+    height: 300px;
+    width: 150px;
+    animation-name: sun;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-repeat: repeat-x;
+    z-index: 2;
+
+}
+@keyframes sun {
+    100%{
+        transform: translateX(-1000px);
+    }
+}
